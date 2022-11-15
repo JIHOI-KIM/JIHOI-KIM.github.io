@@ -1,5 +1,5 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Newb1e's Personal Blog
+description: Simple Blog for newb1e.
 
 url: https://jihoi-kim.github.io/
 paginate_path: "blog/page:num/"
@@ -15,22 +15,18 @@ highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
 
-navigation:
-  - title: Home
-    url: /index.html
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
+# navigation:
+  # - title: Home
+    # url: /index.html
+  # - title: About
+    # url: /about
+  # - title: Contact
+    # url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+  github: JIHOI-KIM
+  email: pascal4847@gmail.com
 
-google_analytics: "UA-58263416-1"
 
 disqus:
     shortname: brianmaierjr
