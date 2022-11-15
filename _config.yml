@@ -10,6 +10,7 @@ markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
+image: ""
 
 social:
   github: JIHOI-KIM
