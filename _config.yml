@@ -15,13 +15,13 @@ highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
 
-# navigation:
-  # - title: Home
-    # url: /index.html
-  # - title: About
-    # url: /about
-  # - title: Contact
-    # url: /contact
+navigation:
+  - title: Home
+    url: /index.html
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
 
 social:
   github: JIHOI-KIM
