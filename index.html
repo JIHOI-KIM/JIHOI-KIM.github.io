@@ -5,7 +5,6 @@ image: main.jpg
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle">최근 글</h1>
   <div class="posts noList">
     {%- for post in paginator.posts -%}
       <article>
@@ -18,10 +17,10 @@ image: main.jpg
   <!-- Pagination links -->
   <div class="pagination">
     {%- if paginator.previous_page -%}
-      <a href="{{ paginator.previous_page_path }}" class="previous button__outline">다음 페이지(최근 글)</a> 
+      <a href="{{ paginator.previous_page_path }}" class="previous button__outline">PREV ▷</a> 
     {%- endif -%}
     {%- if paginator.next_page -%}
-      <a href="{{ paginator.next_page_path }}" class="next button__outline">이전 페이지(예전 글)</a>
+      <a href="{{ paginator.next_page_path }}" class="next button__outline">◁ NEXT</a>
     {%- endif -%}
   </div>
 </div>
