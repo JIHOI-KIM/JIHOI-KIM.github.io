@@ -1,15 +1,11 @@
-title: Newb1e's Personal Blog
-description: Simple Blog for newb1e.
+title: Newb1e's Blog
+description: Personal Blog for newb1e.
 
 url: https://jihoi-kim.github.io/
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
-remote_theme : https://github.com/brianmaierjr/long-haul
-
-# Header Option
-# header: large
-
+header: large
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
