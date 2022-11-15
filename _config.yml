@@ -11,18 +11,7 @@ highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
 
-navigation:
-  - title: Home
-    url: /index.html
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
-
 social:
   github: JIHOI-KIM
   email: pascal4847@gmail.com
 
-
-disqus:
-    shortname: brianmaierjr
