@@ -1,9 +1,11 @@
 title: Long Haul
 description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
-url: https://long-haul.netlify.app
+url: https://jihoi-kim.github.io/
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
+
+remote_theme : https://github.com/brianmaierjr/long-haul
 
 # Header Option
 # header: large
