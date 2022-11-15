@@ -17,10 +17,10 @@ image: main.jpg
   <!-- Pagination links -->
   <div class="pagination">
     {%- if paginator.previous_page -%}
-      <a href="{{ paginator.previous_page_path }}" class="previous button__outline">PREV ▷</a> 
+      <a href="{{ paginator.previous_page_path }}" class="previous button__outline">NEXT ▷</a> 
     {%- endif -%}
     {%- if paginator.next_page -%}
-      <a href="{{ paginator.next_page_path }}" class="next button__outline">◁ NEXT</a>
+      <a href="{{ paginator.next_page_path }}" class="next button__outline">◁ PREV</a>
     {%- endif -%}
   </div>
 </div>
