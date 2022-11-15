@@ -980,10 +980,10 @@ FOOTER STYLING
 PAGINATION STYLING
 ***************/
 .pagination .next {
-  float: left; }
+  float: right; }
 
 .pagination .previous {
-  float: right; }
+  float: left; }
 
 /***************
 POST LIST STYLING
